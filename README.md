@@ -21,11 +21,7 @@ By **rajkumaramithn**
 
 ## Architecture
 
-
-
-📸 ****ATTACH** **SCREENSHOT** (optional):** the dark-theme architecture diagram, saved as `screenshots/architecture.png`
-
-![Architecture diagram](screenshots/architecture.png)
+![Architecture diagram](Screenshots/SAA3-0.png)
 
 ---
 
@@ -44,10 +40,6 @@ By **rajkumaramithn**
 
 Sign in to the **AWS** Console and choose the region used for the whole project.
 
-📸 ****ATTACH** **SCREENSHOT** 1:** Console home page with the **region visible** in the top-right corner
-
-![Console home with region](screenshots/01-console-region.png)
-
 ### 1.2 Create the EBS volume
 
 ## Open **EC2** → **Elastic Block Store** → **Volumes** → **Create volume**.
@@ -60,9 +52,11 @@ Sign in to the **AWS** Console and choose the region used for the whole project.
 
 No **EC2** instance is needed, because snapshots can be taken of unattached volumes.
 
-📸 ****ATTACH** **SCREENSHOT** 2:** The **Create volume** form with size, type, AZ and tag filled in
+![Create volume form](Screenshots/SAA3-1.png)
 
-![Create volume form](screenshots/02-create-volume-form.png)
+![Create volume form](Screenshots/SAA3-2.png)
+
+![Create volume form](Screenshots/SAA3-3.png)
 
 ### 1.3 Note the Volume ID
 
@@ -70,7 +64,7 @@ Wait until **Volume state** shows **Available**, then copy the **Volume ID** (`v
 
 📸 ****ATTACH** **SCREENSHOT** 3:** The **Volumes** list showing your volume, its **Volume ID**, and the **Available** state
 
-![Volumes list with Volume ID](screenshots/03-volume-id.png)
+![Volumes list with Volume ID](Screenshots/SAA3-4.png)
 
 ---
 
