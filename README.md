@@ -66,6 +66,7 @@ Wait until **Volume state** shows **Available**, then copy the **Volume ID** (`v
 
 ![Volumes list with Volume ID](Screenshots/SAA3-4.png)
 
+
 ---
 
 ## Step 2: IAM Role for Lambda
